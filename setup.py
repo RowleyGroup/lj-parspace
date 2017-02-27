@@ -54,7 +54,7 @@ setup(
     license='Apache License (2.0)',
     name='lj-parspace',
     packages=[
-        'lj-parspace',
+        'lj_parspace',
     ],
     scripts=[],
     test_suite='tests',
