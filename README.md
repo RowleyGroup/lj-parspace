@@ -7,12 +7,26 @@ Work in progress...
 
 ## Installation
 
-Installation instructions...
+Clone the repository and cd to the created directory. Install the dependencies using pip:
+
+```
+sudo pip install -r requirements.txt
+```
+
+You need to create a configuration file in `~/.ljparspace.cfg` with the following format:
+
+```cfg
+[DEFAULT]
+postg_path = /path/to/postg
+
+```
 
 ## Usage
 
-Usage instructions...
+### Validation
+You can use the `bin/validate.py` script to validate the LJ parameters by giving a wave function and its Gromacs topology file.
 
+[Check out the examples](https://github.com/mohebifar/lj-parspace/tree/master/examples).
 ## Contributing
 
 Read [CONTRIBUTING](CONTRIBUTING.md).
