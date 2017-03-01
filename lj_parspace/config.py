@@ -7,6 +7,7 @@ defaults = {
     'postg_path': '/usr/bin/postg'
 }
 
+
 class Config:
     def __init__(self, **kwargs):
         self.file = kwargs.get('filename', DEFAULT_CONFIG_FILE)

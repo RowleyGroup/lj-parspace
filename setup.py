@@ -50,6 +50,8 @@ setup(
         'coverage': Coverage,
     },
     install_requires=[
+        'openbabel>=2.4.1',
+        'numpy'
     ],
     license='Apache License (2.0)',
     name='lj-parspace',
