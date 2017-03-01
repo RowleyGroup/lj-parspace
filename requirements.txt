@@ -2,3 +2,4 @@
 openbabel
 numpy
 click
+click-spinner
